@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_plan"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_plan" />
+        <item
+            android:id="@+id/nav_rutinas"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_rutinas" />
+        <item
+            android:id="@+id/nav_dias"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_dias" />
+        <item
+            android:id="@+id/nav_ejercicios"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_ejercicios" />
+        <item
+            android:id="@+id/nav_diario"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_diario" />
+        <item
+            android:id="@+id/nav_alimentos"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_alimentos" />
+    </group>
+</menu>

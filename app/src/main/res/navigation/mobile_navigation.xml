@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.functionaltraining.Presentation.Dash.Home.ui.valoracion.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_plan"
+        android:name="com.example.functionaltraining.Presentation.Dash.Home.ui.plan_entrenaminto.PlanFragment"
+        android:label="@string/menu_plan"
+        tools:layout="@layout/fragment_plan" />
+
+    <fragment
+        android:id="@+id/nav_rutinas"
+        android:name="com.example.functionaltraining.Presentation.Dash.Home.ui.rutinas.RutinasFragment"
+        android:label="@string/menu_rutinas"
+        tools:layout="@layout/fragment_rutinas" />
+
+    <fragment
+        android:id="@+id/nav_dias"
+        android:name="com.example.functionaltraining.Presentation.Dash.Home.ui.dias_entrenamiento.DiasEntrenamientoFragment"
+        android:label="@string/menu_dias"
+        tools:layout="@layout/fragment_plan" />
+
+    <fragment
+        android:id="@+id/nav_ejercicios"
+        android:name="com.example.functionaltraining.Presentation.Dash.Home.ui.ejercicios.EjerciciosFragment"
+        android:label="@string/menu_ejercicios"
+        tools:layout="@layout/fragment_plan" />
+
+    <fragment
+        android:id="@+id/nav_diario"
+        android:name="com.example.functionaltraining.Presentation.Dash.Home.ui.menu_diario.MenuDiarioFragment"
+        android:label="@string/menu_diario"
+        tools:layout="@layout/fragment_plan" />
+
+    <fragment
+        android:id="@+id/nav_alimentos"
+        android:name="com.example.functionaltraining.Presentation.Dash.Home.ui.alimento_sugerido.AlimentoSugeridoFragment"
+        android:label="@string/menu_alimentos"
+        tools:layout="@layout/fragment_plan" />
+</navigation>

@@ -1,0 +1,69 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">FunctionalTraining</string>
+    <string name="btn_aceptar">Aceptar</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="informative">Informativo</string>
+    <string name="detail_diaolog">Detalle del Dialogo</string>
+
+    <string name="init_section">Inicio de Sesión</string>
+    <string name="Email">Correo</string>
+    <string name="password">Contraseña</string>
+    <string name="CaracteresPass">1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ*</string>
+    <string name="log_in">Iniciar Sesión</string>
+    <string name="registrar_usuario"><u> ¿No tienes una Cuenta? </u></string>
+
+    <string name="register_user">Registra tu Usuario</string>
+    <string name="conf_password">Confirmar Contraseña</string>
+    <string name="btn_create">Crear Usuario</string>
+    <string name="name">Nombre</string>
+    <string name="phone">Celular</string>
+
+    <string name="title_home">Dashboard</string>
+    <string name="user">"El usuario "</string>
+    <string name="user_deslogueado">" se deslogueo"</string>
+
+    <string name="user_create">Se creo correctamente el usuario</string>
+    <string name="login_user">Se Logueo correctamente el usuario</string>
+    <string name="fields_empty">Campos Vacios</string>
+    <string name="details_fields_empty">Verifique, ya que hay algun campo vacio</string>
+    <string name="credentials_incorrect">Credenciales</string>
+    <string name="details_credentials_incorrect">Verificas tus credenciales, estan incorrectas</string>
+    <string name="details_password">Los campos contraseña y confirmar contraseña no coinciden</string>
+    <string name="user_register_incorrectt">Ups,hubo un error al registarte. Intentalo nuevamente</string>
+    <string name="error_correo_formato">Formato de correo electrónico inválido</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Valoración Fisica</string>
+    <string name="menu_plan">Plan de Entrenamiento</string>
+    <string name="menu_rutinas">Rutinas</string>
+    <string name="menu_dias">Dias de Entrenamiento</string>
+    <string name="menu_ejercicios">Ejercicios</string>
+    <string name="menu_diario">Menu Diario</string>
+    <string name="menu_alimentos">Alimentos Sugeridos</string>
+
+    <string name="description_valoración">Es un proceso mediante el cual se evalúa el estado de salud y la condición física, generalmente a través de mediciones y pruebas específicas. Este análisis permite determinar el nivel de aptitud física, detectar posibles limitaciones o problemas de salud, y establecer una base para crear un plan de entrenamiento personalizado o mejorar el bienestar general.</string>
+    <string name="description_plan">Es un programa diseñado específicamente para clientes en función de sus objetivos, nivel de condición física, habilidades y limitaciones.   Este plan de entrenamiento funcional como metodología incluye ejercicios por niveles de dificultad y acciones motrices que ayudan al cliente, a potenciarse funcionalmente y así mejorando el rendimiento deportivo y reduciendo riesgo de lesiones.</string>
+    <string name="description_rutinas">es un programa diseñado específicamente para clientes en función de sus objetivos, nivel de condición física, habilidades y limitaciones.   Este plan de entrenamiento funcional como metodología incluye ejercicios por niveles de dificultad y acciones motrices que ayudan al cliente, a potenciarse funcionalmente y así mejorando el rendimiento deportivo y reduciendo riesgo de lesiones.</string>
+    <string name="description_dias">Los días de entrenamiento varían dependiendo de los objetivos del usuario, su nivel de condición física y el tipo de rutina seleccionada. En esta aplicación se ofrecerá diferentes opciones de entrenamientos según su nivel de dificultad.</string>
+    <string name="description_ejercicios">Los ejercicios de entrenamiento funcional son movimientos diseñados para mejorar la capacidad de realizar actividades cotidianas con mayor facilidad y eficiencia. Estos ejercicios se centran en movimientos naturales del cuerpo, como empujar, tirar, agacharse, levantar, girar y caminar, ayudando a desarrollar fuerza, equilibrio, coordinación y estabilidad. El objetivo es trabajar varios grupos musculares al mismo tiempo, replicando patrones de movimiento que se usan en la vida diaria.</string>
+    <string name="description_diario">Los alimentos diarios para el entrenamiento funcional son aquellos que proporcionan la energía y los nutrientes necesarios para optimizar el rendimiento físico, favorecer la recuperación y mejorar la salud general. Una dieta equilibrada y adecuada para este tipo de entrenamiento es fundamental, ya que el cuerpo necesita suficiente combustible para soportar los ejercicios y reconstruir los músculos después de las sesiones.</string>
+    <string name="description_alimentos">Para una vida sana, es fundamental mantener una dieta equilibrada que incluya una variedad de alimentos ricos en nutrientes. Estos alimentos proporcionan la energía, las vitaminas, minerales y antioxidantes necesarios para mantener el cuerpo en buen funcionamiento, prevenir enfermedades y promover el bienestar general.</string>
+
+    <string name="url_image_plan" tools:ignore="TypographyDashes">https://img.freepik.com/vector–premium/ultimo-paquete-ilustraciones-personajes-planos-companeros-equipo_9206-24283.jpg?w=740</string>
+    <string name="url_image_valoracion" tools:ignore="TypographyDashes">https://suramericana.com/content/webp-express/webp-images/doc-root/content/uploads/sites/10/2020/01/seguros-sura-3-apps-para-medir-la-actividad-fisica.jpg.webp</string>
+    <string name="url_image_rutinas" tools:ignore="TypographyDashes"><![CDATA[https://img.freepik.com/vector-gratis/gente-formacion-bicicletas-ejercicio-cardio-fitness-cintas-correr-prensa-banco-iconos-coleccion-plana-ilustracion-vectorial-aislados_1284-2572.jpg?t=st=1725556049~exp=1725559649~hmac=9b24c53db271b85ad37b9790efdc64c7087794b86567d7ac1f992a579a1a80d7&w=740]]></string>
+    <string name="url_image_diario" tools:ignore="TypographyDashes"><![CDATA[https://img.freepik.com/foto-gratis/surtido-plano-laico-lotes-alimentos-cocinados-mesa_23-2148765545.jpg?t=st=1725556207~exp=1725559807~hmac=273925f83c3712e9a5d59444e9eefa1a0a0292046b7faf2ba9ce1a1d075e3b36&w=740]]></string>
+    <string name="url_image_dias" tools:ignore="TypographyDashes"><![CDATA[https://img.freepik.com/vector-gratis/gente-haciendo-diferentes-acciones_52683-934.jpg?t=st=1725556382~exp=1725559982~hmac=dfbd4abbd9264453bc5232e5f6eac85d311669d7d5afa4de187d61eaff12200d&w=740]]></string>
+    <string name="url_image_ejercicios" tools:ignore="TypographyDashes"><![CDATA[https://img.freepik.com/vector-gratis/conjunto-personas-multietnicas-activas-entrenando-gimnasio_1262-19305.jpg?t=st=1725556508~exp=1725560108~hmac=327a0022731bec4bea8fc1b03bd244714843353abd800b46e4014c7b151bbd22&w=996]]></string>
+    <string name="url_image_alimentos" tools:ignore="TypographyDashes"><![CDATA[https://img.freepik.com/foto-gratis/vista-superior-surtido-verduras-bolsa-papel_23-2148853335.jpg?t=st=1725556614~exp=1725560214~hmac=8371428ff70e2594cc567b5fe1d97c6f8c7407ac5c458ff452ffedaca67367a9&w=740]]></string>
+
+    <string name="url_video_valoracion">https://www.youtube.com/embed/5uCFBKAI3dE</string>
+    <string name="url_video_plan">https://www.youtube.com/embed/n6-UGb8wfD4</string>
+    <string name="url_video_ejercicios">https://www.youtube.com/embed/nIQJo2VacII</string>
+</resources>
