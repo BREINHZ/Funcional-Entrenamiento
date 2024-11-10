@@ -1,6 +1,13 @@
 package com.example.functionaltraining.Models;
 
+import com.example.functionaltraining.DataAccess.DataBaseApi.Service.ApiService;
 import com.example.functionaltraining.DataAccess.DatabaseSQLite.Daos.UserDao;
+import com.google.gson.Gson;
+import okhttp3.MediaType;
+import okhttp3.RequestBody;
+import retrofit2.Call;
+import retrofit2.Callback;
+import okhttp3.ResponseBody;
 
 public class User {
     private String id;
@@ -74,4 +81,15 @@ public class User {
     //Metodos de consumos SQlite
     public long initUserSection(UserDao dao){return dao.verifyUserCredentials(email, password);}
     public int insertUser(UserDao dao){return (int) dao.insertUser(this);}
+
+    //Metodos para consumo Api
+    public void authUser(User user, ApiService api, Callback<ResponseBody> callback){
+        Gson gson = new Gson();
+        String usuarioJson = gson.toJson(user);
+
+        // Convertir el String JSON a RequestBody
+        RequestBody requestBody = RequestBody.create(MediaType.parse("application/json; charset=utf-8"), usuarioJson);
+        Call<ResponseBody> response = api.loginUser(requestBody);
+        response.enqueue(callback);
+    }
 }
